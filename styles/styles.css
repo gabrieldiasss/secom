@@ -1,3 +1,9 @@
+body {
+    background-image: url("../images/image-background-intro.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -8,7 +14,7 @@ header {
 }
 
 header .logo {
-    /* color: var(--white); */
+    color: var(--white);
 }
 
 nav ul {
@@ -26,3 +32,26 @@ header button:hover {
     transition: .2s;
     filter: brightness(0.9);
 }
+
+#intro .intro-content {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#intro .intro-content h2 {
+    font-size: 2.75rem;
+    color: var(--white);
+}
+
+#intro .intro-content h1 {
+    font-size: 4rem;
+    color: var(--white);
+}
+
+#intro .intro-content p {
+    font-size: 1.25rem;
+    color: var(--white);
+}
+

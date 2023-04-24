@@ -57,6 +57,11 @@ h2 {
     font-weight: 500;
 }
 
+ p {
+    font-family: Inter;
+    font-weight: 400;
+ }
+
 button {
     font-family: Poppins;
     font-weight: 600;
@@ -75,6 +80,6 @@ li {
 }
 
 a {
-    /* color: var(--white); */
+    color: var(--white);
 }
 
