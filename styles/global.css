@@ -1,11 +1,11 @@
 :root {
-    --white: #fff,
-    --gray-100: #F5F5F5,
-    --gray-300: #C8C8C8,
-    --blue-500: #125896,
-    --blue-900: #0F0617,
-    --red: #D82044,
-    --black: #000000,
+    --white: #FFFF;
+    --gray-100: #F5F5F5;
+    --gray-300: #C8C8C8;
+    --blue-500: #125896;
+    --blue-900: #0F0617;
+    --red: #D82044;
+    --black: #000000;
 }
 
 * {
@@ -39,6 +39,12 @@
     }
 }
 
+body {
+    font-family: Poppins;
+    background: var(--white);
+    height: 100vh;
+}
+
 h1, h2 {
     font-family: Poppins;
 }
@@ -55,8 +61,20 @@ button {
     font-family: Poppins;
     font-weight: 600;
     color: var(--white);
+    height: 3.75rem;
+    outline: 0;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
 li {
     list-style: none;
+    font-family: Inter;
+    font-weight: 600;
 }
+
+a {
+    /* color: var(--white); */
+}
+

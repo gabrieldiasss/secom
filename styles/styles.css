@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+header .logo {
+    /* color: var(--white); */
+}
+
+nav ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+header button {
+    background: var(--blue-500);
+    font-size: 1.25rem;
+    padding: 0 1rem;
+}
+
+header button:hover {
+    transition: .2s;
+    filter: brightness(0.9);
+}
