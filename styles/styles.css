@@ -37,24 +37,29 @@ header button:hover {
     transition: .2s;
     filter: brightness(0.9);
 }
+
 /* HEADER - FIM */
 /* EVENT - COMEÇO */
+
 
 #event-content{
     display: flex;
     gap:4rem;
-    
 }
-main img{
+
+#event img{
     width: 32rem;
-    height: 32rem;
+    height: 40rem;
+
 }
 #event{
     display: flex;
+    align-items: center;
     justify-content: space-around;
-
+    margin: 4rem auto;
+    max-width: 1200px;
 }
-main button {
+#event button {
     background: var(--pink);
     font-size: 1.25rem;
     padding: 0 1rem;
@@ -69,7 +74,7 @@ main button {
     font-size: 3rem;
     display: flex;
     justify-content: center;
-    margin-top: 4rem;
+    margin-top: 7rem;
     margin-bottom: 1rem;
 }
 
@@ -105,9 +110,13 @@ main button {
 #intro .intro-content img {
     width: 25rem;
 }
-
+/* INTRO - FIM */
+/* TEACHERS - INICIO */
 #teachers {
-    margin-top: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    background: var(--gray-100)
+    
 }
 
 #teachers .teachers-content h2 {
@@ -143,4 +152,49 @@ main button {
     border-radius: 50%;
 }
 
-/* INTRO - FIM */
+/* TEACHERS - FIM */
+
+/* INFO - INICIO */
+
+#info{
+    color:white;
+}
+
+#info .info-content{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    background-color: #120B1D;
+}
+
+#info .info-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 1rem;
+    gap: 4rem;
+}
+
+#info svg{
+    margin-bottom: 1rem;
+}
+
+#info .info-card{
+    
+    padding: 1rem;
+    border-radius: 8px;
+    border: solid var(--gray-100) 1px;
+    width: 18.75rem;
+    height: 15.313rem;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#h1-info{
+    margin-top: 1rem;
+    font-size: 4rem;
+}
