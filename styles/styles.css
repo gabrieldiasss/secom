@@ -8,7 +8,7 @@
     z-index: -1;
     object-fit: cover;
 }
-
+/* HEADER - COMEÇO */
 header {
     display: flex;
     align-items: center;
@@ -37,7 +37,49 @@ header button:hover {
     transition: .2s;
     filter: brightness(0.9);
 }
+/* HEADER - FIM */
+/* EVENT - COMEÇO */
 
+#event-content{
+    display: flex;
+    gap:4rem;
+    
+}
+main img{
+    width: 32rem;
+    height: 32rem;
+}
+#event{
+    display: flex;
+    justify-content: space-around;
+
+}
+main button {
+    background: var(--pink);
+    font-size: 1.25rem;
+    padding: 0 1rem;
+}
+#event-button{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+#event h1{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+#event p{
+    max-width: 50rem;
+}
+
+/* EVENT - FIM */
+
+/* INTRO - INICIO */
 #intro .intro-content {
     display: flex;
     align-items: center;
@@ -100,3 +142,5 @@ header button:hover {
     height: 80px;
     border-radius: 50%;
 }
+
+/* INTRO - FIM */
