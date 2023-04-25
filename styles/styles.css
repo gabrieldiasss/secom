@@ -1,7 +1,12 @@
-body {
-    background-image: url("../images/image-background-intro.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+.image-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 650px;
+    z-index: -1;
+    object-fit: cover;
 }
 
 header {
@@ -46,7 +51,7 @@ header button:hover {
 }
 
 #intro .intro-content h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: var(--white);
 }
 
@@ -55,3 +60,43 @@ header button:hover {
     color: var(--white);
 }
 
+#intro .intro-content img {
+    width: 25rem;
+}
+
+#teachers {
+    margin-top: 4rem;
+}
+
+#teachers .teachers-content h2 {
+    color: var(--red);
+}
+
+#teachers .teachers-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#teachers .all-teachers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    margin-top: 1rem;
+    gap: 3rem;
+}
+
+#teachers .card-teacher {
+    display: flex;
+    align-items: center;
+    background: var(--white);
+
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25); 
+}
+
+#teachers .card-teacher img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
